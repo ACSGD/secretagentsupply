@@ -166,11 +166,13 @@ footer{
   padding: 1rem 2rem;
   top: 10rem;
   }
-  .info{
+  .business-info, .products{
     width: 90%;
+    display: block;
     margin: 0.5rem;
-    flex-direction: column;
-    flex-wrap: wrap;
+  }
+  .product.watch{
+    display: none;
   }
   footer{
     text-align: center;
